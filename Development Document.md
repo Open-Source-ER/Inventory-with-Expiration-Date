@@ -34,10 +34,20 @@ The end goal is to create a cross-platform app that will aid in resource managem
 
 |Page            |Description                    |Notes                        |
 |----------------|-------------------------------|-----------------------------|
-|Document date   |2018.06.16                     |                             |
-|Project title   |Inventory with Expiration Date |                             |
-|App name        |`TBD`                          |No "cool" name yet           |
-|ER time type    |Before, After                  |When the project is useful   |
+|Display lists   |Databases for each category    |Each category would be it's own DB|
+|List content    |Display items in Inventory     |SELECT * FROM List           |
+|Category alerts |Customize alerts per Database  |Color, Time before expiration|
+|Settings        |Change app settings            |`Obviously`                  |
+|Add item        |Insert a new item into the DB  |**MUST** have an expiration date |
+|Edit item       |Change item details            |Needed for maintenance       |
+|Transfer list   |Send Database to another device|Optional                     |
+
+
+## References
+
+### Xamarin Coding Convention
+
+> https://dvdsgl.gitbooks.io/xamarin-way/content/build/csharp-style-guide.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNjA4MjUxMCwtNjgzMTg2NDE5XX0=
+eyJoaXN0b3J5IjpbMTE2NDg0NjA1NV19
 -->
