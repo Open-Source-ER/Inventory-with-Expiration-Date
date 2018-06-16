@@ -29,6 +29,15 @@ The end goal is to create a cross-platform app that will aid in resource managem
 
 
 ## Project Details
+
+### App Pages
+
+|Page            |Value                          |Notes                        |
+|----------------|-------------------------------|-----------------------------|
+|Document date   |2018.06.16                     |                             |
+|Project title   |Inventory with Expiration Date |                             |
+|App name        |`TBD`                          |No "cool" name yet           |
+|ER time type    |Before, After                  |When the project is useful   |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MzE4NjQxOV19
+eyJoaXN0b3J5IjpbLTE0MjEzMTIxNTMsLTY4MzE4NjQxOV19
 -->
