@@ -42,6 +42,9 @@ The end goal is to create a cross-platform app that will aid in resource managem
 |Edit item       |Change item details            |Needed for maintenance       |
 |Transfer list   |Send Database to another device|Optional                     |
 
+## Future Enhancements
+
+
 
 ## References
 
@@ -49,5 +52,5 @@ The end goal is to create a cross-platform app that will aid in resource managem
 
 > https://dvdsgl.gitbooks.io/xamarin-way/content/build/csharp-style-guide.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDg0NjA1NV19
+eyJoaXN0b3J5IjpbLTEwOTAxMDg2NTksMTE2NDg0NjA1NV19
 -->
