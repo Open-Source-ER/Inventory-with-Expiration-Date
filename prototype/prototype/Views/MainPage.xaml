@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="prototype.Views.MainPage"
+             xmlns:b="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+                  Title="masterpage">
+    <MasterDetailPage.Master>
+        <NavigationPage Title="Menu">
+            <x:Arguments>
+                <ContentPage Title="Inventory">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="1"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <ListView
+                            Grid.Row="0"
+                            SelectedItem="{Binding SelectedItem}"
+                            ItemsSource="{Binding Pages}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Grid ColumnSpacing="10" Margin="20,10,10,10">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="32"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Label Grid.Column="1" Text="{Binding .}"/>
+                                        </Grid>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                            <ListView.Behaviors>
+                                <b:EventToCommandBehavior EventName="ItemTapped" Command="{Binding NavigateToItemCommand}" />
+                            </ListView.Behaviors>
+
+                        </ListView>
+                        <BoxView Grid.Row="1" VerticalOptions="End" BackgroundColor="Gray" HorizontalOptions="FillAndExpand" />
+                        <StackLayout Grid.Row="2"
+                            VerticalOptions="End">
+                            <Grid ColumnSpacing="10" Margin="20,10,10,10" VerticalOptions="End" > 
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="32"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Column="1" Text="Settings"/>
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding NavigateToSettingsCommand}" NumberOfTapsRequired="1"/>
+                                </Grid.GestureRecognizers>
+                            </Grid>
+                        </StackLayout>
+                    </Grid>
+                </ContentPage>
+                <!--<pages:MasterPage Title="Master"/>-->
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Master>
+</MasterDetailPage>

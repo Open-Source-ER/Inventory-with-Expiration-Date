@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0C7C92B4-B86F-4050-BE4E-7147EED101D9}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>prototype.Droid</RootNamespace>
+    <AssemblyName>prototype.Android</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+    <JavaMaximumHeapSize />
+    <JavaOptions />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <BundleAssemblies>false</BundleAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidManagedSymbols>true</AndroidManagedSymbols>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="BottomNavigationBar">
+      <Version>1.4.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="PropertyChanged.Fody">
+      <Version>2.5.7</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.583944" />
+    <PackageReference Include="Xamarin.Android.Support.Design" Version="25.4.0.2" />
+    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="25.4.0.2" />
+    <PackageReference Include="Xamarin.Android.Support.v4" Version="25.4.0.2" />
+    <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="25.4.0.2" />
+    <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="25.4.0.2" />
+    <PackageReference Include="Prism.Autofac.Forms" Version="7.0.0.396" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BottomBar\Renderers\BottomBarPageRenderer.cs" />
+    <Compile Include="BottomBar\Utils\IPageController.cs" />
+    <Compile Include="BottomBar\Utils\MeasureSpecFactory.cs" />
+    <Compile Include="BottomBar\Utils\PageController.cs" />
+    <Compile Include="BottomBar\Utils\ReflectedProxy.cs" />
+    <Compile Include="BottomBar\Utils\ResourceManagerEx.cs" />
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Tabbar.axml" />
+    <AndroidResource Include="Resources\layout\Toolbar.axml" />
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_favorites.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_friends.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_launcher.png">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_nearby.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_recents.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_restaurants.png" />
+    <AndroidResource Include="Resources\mipmap-ldpi\ic_favorites.png" />
+    <AndroidResource Include="Resources\mipmap-ldpi\ic_friends.png" />
+    <AndroidResource Include="Resources\mipmap-ldpi\ic_launcher.png">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\mipmap-ldpi\ic_nearby.png" />
+    <AndroidResource Include="Resources\mipmap-ldpi\ic_recents.png" />
+    <AndroidResource Include="Resources\mipmap-ldpi\ic_restaurants.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_favorites.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_friends.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_launcher.png">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_nearby.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_recents.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_restaurants.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_favorites.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_friends.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_launcher.png">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_nearby.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_recents.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_restaurants.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_launcher.png">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher.png">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\values\styles.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\prototype\prototype.csproj">
+      <Project>{A682884C-CB44-4A89-B752-27BB634E0ABE}</Project>
+      <Name>prototype</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FodyWeavers.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <AndroidResource Include="Resources\drawable\icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_favorites.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_friends.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_nearby.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_recents.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_restaurants.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_favorites.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_friends.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_nearby.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_recents.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_restaurants.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_favorites.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_friends.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_nearby.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_recents.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_restaurants.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_favorites.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_friends.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_nearby.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_recents.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_restaurants.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_favorites.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_friends.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_nearby.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_recents.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_restaurants.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_favorites.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_friends.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_nearby.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_recents.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_restaurants.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_favorites.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_friends.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_nearby.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_recents.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_restaurants.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+</Project>

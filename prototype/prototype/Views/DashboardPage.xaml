@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="prototype.Views.DashboardPage"
+             Title="Dashboard">
+    <ScrollView>
+        <StackLayout BackgroundColor="White">
+            <Frame BackgroundColor="#eeeeee" Padding="0" Margin="12,16,12,6" CornerRadius="5" HasShadow="True">
+                <StackLayout Margin="1">
+                    <Label Text="Water" HorizontalOptions="Center"/>
+                    <StackLayout BackgroundColor="White" Padding="5">
+                        <Label Text="you have no fucking water, buy some"/>
+                        <Label Text="you have no fucking food, buy some"/>
+                        <Label Text="you have no fucking guns, buy some"/>
+                    </StackLayout>
+                </StackLayout>
+
+            </Frame>
+
+            <Frame BackgroundColor="#eeeeee" Padding="0" Margin="12,6" CornerRadius="5" HasShadow="True">
+                <StackLayout Margin="1">
+                    <Label Text="stuff" HorizontalOptions="Center"/>
+                    <StackLayout BackgroundColor="White" Padding="5" Orientation="Horizontal">
+                        <Label Text="other not interesting facts about things, some funny quote about survival maybe? Dont know shit, im a dev not a comedian. Mostly anyway." LineBreakMode="WordWrap" />
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="#eeeeee" Padding="0" Margin="12,6" CornerRadius="5" HasShadow="True">
+                <StackLayout Margin="1">
+                    <Label Text="stuff" HorizontalOptions="Center"/>
+                    <StackLayout BackgroundColor="White" Padding="5" Orientation="Horizontal">
+                        <Label Text="No idea. Lorem ipsum dolor blablablablablablablablablablablablablablablablablablablablablabla" LineBreakMode="WordWrap" />
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="#eeeeee" Padding="0" Margin="12,6" CornerRadius="5" HasShadow="True">
+                <StackLayout Margin="1">
+                    <Label Text="stuff" HorizontalOptions="Center"/>
+                    <StackLayout BackgroundColor="White" Padding="5" Orientation="Horizontal">
+                        <Label Text="shitty ctrl+c ctrl+v controls blablablablablablablablablablablablablablablabla"  LineBreakMode="WordWrap" />
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="#eeeeee" Padding="0" Margin="12,6" CornerRadius="5" HasShadow="True">
+                <StackLayout Margin="1">
+                    <Label Text="stuff" HorizontalOptions="Center"/>
+                    <StackLayout BackgroundColor="White" Padding="5" Orientation="Horizontal">
+                        <Label Text="shitty ctrl+c ctrl+v controls blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla" LineBreakMode="WordWrap" />
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="#eeeeee" Padding="0" Margin="12,6" CornerRadius="5" HasShadow="True">
+                <StackLayout Margin="1">
+                    <Label Text="stuff" HorizontalOptions="Center"/>
+                    <StackLayout BackgroundColor="White" Padding="5" Orientation="Horizontal">
+                        <Label Text="shitty ctrl+c ctrl+v controls blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla" LineBreakMode="WordWrap" />
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="#eeeeee" Padding="0" Margin="12,6" CornerRadius="5" HasShadow="True">
+                <StackLayout Margin="1">
+                    <Label Text="stuff" HorizontalOptions="Center"/>
+                    <StackLayout BackgroundColor="White" Padding="5" Orientation="Horizontal">
+                        <Label Text="shitty ctrl+c ctrl+v controls blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla" LineBreakMode="WordWrap" />
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
