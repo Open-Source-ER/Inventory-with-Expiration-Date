@@ -3,6 +3,9 @@ using Android.Content.PM;
 using Android.OS;
 using Prism;
 using Prism.Ioc;
+using prototype.Droid.Services.FileProvider;
+using prototype.Services.Database;
+using prototype.Services.FileProvider;
 
 namespace prototype.Droid
 {
@@ -25,6 +28,7 @@ namespace prototype.Droid
     {
         public void RegisterTypes(IContainerRegistry container)
         {
+            container.Register(typeof(IFileProvider), typeof(FileProvider));
             // Register any platform specific implementations
         }
     }

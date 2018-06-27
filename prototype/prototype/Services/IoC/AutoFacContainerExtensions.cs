@@ -1,4 +1,5 @@
 ﻿using Prism.Ioc;
+using prototype.Services.Database;
 using prototype.Views;
 using System;
 using System.Collections.Generic;
@@ -33,7 +34,7 @@ namespace prototype.Services.IoC
 
         public static IContainerRegistry RegisterServices(this IContainerRegistry containerRegistry)
         {
-            //containerRegistry.Register(typeof(IDataBaseService), typeof(DataBaseService));
+            containerRegistry.Register(typeof(IDatabaseManager), typeof(DatabaseManager));
             return containerRegistry;
         }
     }
