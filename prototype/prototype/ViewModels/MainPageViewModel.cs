@@ -17,7 +17,7 @@ namespace prototype.ViewModels
         public ObservableCollection<string> Pages { get; set; }
         IDatabaseManager DatabaseManager;
 
-        public DelegateCommand NavigateToItemCommand { get; set; }
+        public DelegateCommand<object> NavigateToItemCommand { get; set; }
         public string SelectedItem { get; set; }
 
         public MainPageViewModel(INavigationService navigationService, IDatabaseManager databaseManager)
@@ -28,7 +28,7 @@ namespace prototype.ViewModels
             Pages.Add("Dashboard");
             Pages.Add("Items");
 
-            NavigateToItemCommand = new DelegateCommand(Navigate);
+            NavigateToItemCommand = new DelegateCommand<object>(Navigate);
         }
 
         public override async void OnNavigatedTo(NavigationParameters parameters)
@@ -39,9 +39,9 @@ namespace prototype.ViewModels
             await DatabaseManager.Connection.InsertAsync(new InventoryItem() { Name = "asd" });
         }
 
-        async void Navigate()
+        async void Navigate(object parameter)
         {
-            await NavigationService.NavigateAsync(nameof(NavigationPage) + "/" + SelectedItem + "Page");
+            await NavigationService.NavigateAsync(nameof(NavigationPage) + "/" + parameter + "Page");
         }
 
 
