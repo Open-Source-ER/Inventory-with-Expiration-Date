@@ -1,13 +1,8 @@
 ﻿using Prism.Commands;
-using Prism.Mvvm;
 using Prism.Navigation;
 using prototype.Models;
 using prototype.Services.Database;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
 using Xamarin.Forms;
 
 namespace prototype.ViewModels
@@ -25,7 +20,6 @@ namespace prototype.ViewModels
         {
             DatabaseManager = databaseManager;
             Pages = new ObservableCollection<string>();
-            Pages.Add("Dashboard");
             Pages.Add("Items");
 
             NavigateToItemCommand = new DelegateCommand<object>(Navigate);
