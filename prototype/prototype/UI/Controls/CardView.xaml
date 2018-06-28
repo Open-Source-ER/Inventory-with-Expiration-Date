@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="prototype.UI.Controls.CardView">
+    <Frame BackgroundColor="#eeeeee" Padding="0" Margin="12,6" CornerRadius="5" HasShadow="True">
+        <StackLayout Margin="1">
+            <Label Text="{Binding Title}" HorizontalOptions="Center"/>
+            <StackLayout BackgroundColor="White" Padding="5" Orientation="Horizontal">
+                <ContentPresenter Content="{Binding InsideContent}"/>
+                <!--<Label Text="other not interesting facts about things, some funny quote about survival maybe? Dont know shit, im a dev not a comedian. Mostly anyway." LineBreakMode="WordWrap" />-->
+            </StackLayout>
+        </StackLayout>
+    </Frame>
+</ContentView>
