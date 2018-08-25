@@ -1,0 +1,1 @@
+F:\VS Projects\Inventory-with-Expiration-Date\InventoryApp\InventoryApp.UWP\InventoryApp.UWP.csproj;x86
