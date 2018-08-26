@@ -944,20 +944,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Xavier\\.nuget\\packages\\": {}
+    "C:\\Users\\micha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\VS Projects\\Inventory-with-Expiration-Date\\InventoryApp\\InventoryApp.Android\\InventoryApp.Android.csproj",
+      "projectUniqueName": "C:\\IED\\InventoryApp\\InventoryApp.Android\\InventoryApp.Android.csproj",
       "projectName": "InventoryApp.Android",
-      "projectPath": "F:\\VS Projects\\Inventory-with-Expiration-Date\\InventoryApp\\InventoryApp.Android\\InventoryApp.Android.csproj",
-      "packagesPath": "C:\\Users\\Xavier\\.nuget\\packages\\",
-      "outputPath": "F:\\VS Projects\\Inventory-with-Expiration-Date\\InventoryApp\\InventoryApp.Android\\obj\\",
+      "projectPath": "C:\\IED\\InventoryApp\\InventoryApp.Android\\InventoryApp.Android.csproj",
+      "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
+      "outputPath": "C:\\IED\\InventoryApp\\InventoryApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Xavier\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -970,8 +970,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "F:\\VS Projects\\Inventory-with-Expiration-Date\\InventoryApp\\InventoryApp\\InventoryApp.csproj": {
-              "projectPath": "F:\\VS Projects\\Inventory-with-Expiration-Date\\InventoryApp\\InventoryApp\\InventoryApp.csproj"
+            "C:\\IED\\InventoryApp\\InventoryApp\\InventoryApp.csproj": {
+              "projectPath": "C:\\IED\\InventoryApp\\InventoryApp\\InventoryApp.csproj"
             }
           }
         }

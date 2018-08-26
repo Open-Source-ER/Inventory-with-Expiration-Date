@@ -471,23 +471,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Xavier\\.nuget\\packages\\": {},
+    "C:\\Users\\micha\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\VS Projects\\Inventory-with-Expiration-Date\\InventoryApp\\InventoryApp\\InventoryApp.csproj",
+      "projectUniqueName": "C:\\IED\\InventoryApp\\InventoryApp\\InventoryApp.csproj",
       "projectName": "InventoryApp",
-      "projectPath": "F:\\VS Projects\\Inventory-with-Expiration-Date\\InventoryApp\\InventoryApp\\InventoryApp.csproj",
-      "packagesPath": "C:\\Users\\Xavier\\.nuget\\packages\\",
-      "outputPath": "F:\\VS Projects\\Inventory-with-Expiration-Date\\InventoryApp\\InventoryApp\\obj\\",
+      "projectPath": "C:\\IED\\InventoryApp\\InventoryApp\\InventoryApp.csproj",
+      "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
+      "outputPath": "C:\\IED\\InventoryApp\\InventoryApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Xavier\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

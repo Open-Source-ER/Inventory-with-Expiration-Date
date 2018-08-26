@@ -12,3 +12,17 @@ F:\VS Projects\Inventory-with-Expiration-Date\InventoryApp\InventoryApp\obj\Debu
 F:\VS Projects\Inventory-with-Expiration-Date\InventoryApp\InventoryApp\obj\Debug\netstandard2.0\XamlC.stamp
 F:\VS Projects\Inventory-with-Expiration-Date\InventoryApp\InventoryApp\obj\Debug\netstandard2.0\InventoryApp.dll
 F:\VS Projects\Inventory-with-Expiration-Date\InventoryApp\InventoryApp\obj\Debug\netstandard2.0\InventoryApp.pdb
+C:\IED\InventoryApp\InventoryApp\bin\Debug\netstandard2.0\InventoryApp.deps.json
+C:\IED\InventoryApp\InventoryApp\bin\Debug\netstandard2.0\InventoryApp.dll
+C:\IED\InventoryApp\InventoryApp\bin\Debug\netstandard2.0\InventoryApp.pdb
+C:\IED\InventoryApp\InventoryApp\obj\Debug\netstandard2.0\InventoryApp.csprojAssemblyReference.cache
+C:\IED\InventoryApp\InventoryApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\IED\InventoryApp\InventoryApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\IED\InventoryApp\InventoryApp\obj\Debug\netstandard2.0\Views\MainPrismDetail.xaml.g.cs
+C:\IED\InventoryApp\InventoryApp\obj\Debug\netstandard2.0\Views\MainPrismMaster.xaml.g.cs
+C:\IED\InventoryApp\InventoryApp\obj\Debug\netstandard2.0\InventoryApp.csproj.CoreCompileInputs.cache
+C:\IED\InventoryApp\InventoryApp\obj\Debug\netstandard2.0\InventoryApp.AssemblyInfoInputs.cache
+C:\IED\InventoryApp\InventoryApp\obj\Debug\netstandard2.0\InventoryApp.AssemblyInfo.cs
+C:\IED\InventoryApp\InventoryApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\IED\InventoryApp\InventoryApp\obj\Debug\netstandard2.0\InventoryApp.dll
+C:\IED\InventoryApp\InventoryApp\obj\Debug\netstandard2.0\InventoryApp.pdb
